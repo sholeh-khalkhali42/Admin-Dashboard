@@ -62,7 +62,7 @@ const Login = () => {
                   'ورود'
                 )}
               </button>
-              <p>for test username:emilys && password:</p>
+              <p>for test username:emilys && password:emilyspass</p>
             </Form>
           )}
         </Formik>

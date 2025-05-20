@@ -178,7 +178,7 @@ const Products = () => {
         </ul>
       </nav>
 
-      {/* Modal ویرایش */}
+    
       <Modal show={showEditModal} onHide={() => setShowEditModal(false)}>
         <Modal.Header closeButton>
           <Modal.Title>ویرایش محصول</Modal.Title>
