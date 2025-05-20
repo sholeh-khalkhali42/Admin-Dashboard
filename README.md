@@ -1,12 +1,63 @@
-# React + Vite
+# 🧑‍💼 Admin Dashboard
+A fully functional Admin Dashboard built with React, Vite, and Redux Toolkit, featuring authentication, protected routes, and complete CRUD operations for managing  products using data from dummyjson.com. This project showcases modular architecture, RESTful API integration, and responsive UI design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A fully functional Admin Dashboard built with **React**, **Vite**, and **Redux Toolkit**, supporting **JWT-based authentication**, **protected routes**, and full **CRUD operations** for managing users and products. Data is fetched from [dummyjson.com](https://dummyjson.com/), and the UI is styled using **Bootstrap 5**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 JWT Authentication with Protected Routes
+- 📦 Product Management (CRUD operations)
+- 🔎 Search, Filter, and Pagination for products
+- 🧭 React Router v6 with Route Guards
+- 🌐 REST API integration via RTK Query
+- 💾 Persistent auth state with `localStorage`
+- 🎨 Styled with Bootstrap 5
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
+- [React Router v6](https://reactrouter.com/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [DummyJSON API](https://dummyjson.com/)
+
+---
+
+---
+
+## 🔧 Installation
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/sholeh-khalkhali42/Admin-Dashboard.git
+cd Admin-Dashboard
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the development server
+
+🔑 Login Credentials
+You can use dummy credentials to test the login:
+
+Username: emilys
+Password: emilyspass
+The authentication system is simulated and stores the token in localStorage.
+
+
+
+🙌 Contribution
+Feel free to fork the project and submit pull requests for improvements or new features.
+
+📬 Contact Me
+💼 LinkedIn - http://wwww.linkedin.com/in/sholeh-khalkhali
+
+
+
